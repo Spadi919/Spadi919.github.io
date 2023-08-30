@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Przykładowa Strona z JavaScript</title>
+    <title>Darmowe Anime Dziewczynki</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
             text-align: center;
         }
         button {
@@ -18,20 +20,15 @@
     </style>
 </head>
 <body>
-    <h1>Witaj na Przykładowej Stronie z JavaScript</h1>
+    <h1>Darmowe Anime Dziewczynki</h1>
     
-    <button id="myButton">Kliknij mnie</button>
-    
-    <p id="message"></p>
+    <button id="myButton">Kliknij tutaj</button>
     
     <script>
-        // Pobieramy referencje do przycisku i elementu p
         const button = document.getElementById('myButton');
-        const messageElement = document.getElementById('message');
         
-        // Dodajemy obsługę zdarzenia kliknięcia przycisku
         button.addEventListener('click', function() {
-            messageElement.textContent = 'Kliknięto przycisk!';
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
         });
     </script>
 </body>
